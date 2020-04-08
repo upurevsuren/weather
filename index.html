@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather dashbosrd</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+
+
+    <div class="jumbotron jumbotron-fluid" id="disp">
+        <div class="container">
+          <h1 id="display-4">Weather Dashboard</h1>
+          </div>
+      </div>
+<h2><strong>search by city:</strong></h2>
+    
+    <input type="text" id="city-name">
+    <button type="search" id="search">search</button>
+
+
+    <h2>5 day Weather Forecast</h2>
+
+    <div id="forecast-icons">
+        <table>
+            <tr>
+                <th>
+                    <div class="card" id="monday">
+                        <div class="card-body">
+                            <p>monday</p>
+                            <p id="date">10/9/2019</p>
+    
+                            <p id="temp">Temp: 95 &#176F</p>
+                            <p id="humidity">Humidity: 20%</p>
+                            
+                        </div>
+                    </div>
+                </th>
+
+                <th>
+                    <div class="card" id="tuesday">
+                        <div class="card-body">
+                            <p>tuesday</p>
+                                <p id="date">10/10/2019</p>
+                        
+                                <p id="temp">Temp: 85 &#176F</p>
+                                <p id="humidity">Humidity: 30%</p>
+                                
+                        </div>
+                    </div>
+                </th>
+
+                <th>
+                    <div class="card" id="wednesday">
+                        <div class="card-body">
+                            <p>wednesday</p>
+                                <p id="date">10/11/2019</p>
+    
+                                <p id="temp">Temp: 87 &#176F</p>
+                                <p id="humidity">Humidity: 28%</p>
+                                
+                        </div>
+                    </div>
+                </th>
+                <th>
+                    <div class="card" id="thursday">
+                        <div class="card-body">
+                              <p>thursday</p>
+                                <p id="date">10/12/2019</p>
+   
+                                <p id="temp">Temp: 70 &#176F</p>
+                                <p id="humidity">Humidity: 43%</p>
+                                
+                        </div>
+                    </div>
+                </th>
+                <th>
+                    <div class="card" id="friday">
+                        <div class="card-body">
+                            <p>friday</p>
+                                <p id="date">10/13/2019</p>
+                               
+                                <p id="temp">Temp: 65 &degF</p>
+                                <p id="humidity">Humidity: 100%</p>
+                                
+                        </div>
+                    </div>
+                </th>
+            </tr>
+        </table>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
